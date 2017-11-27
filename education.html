@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Felix Oje - Education</title>
+    <meta name="description" content="A bio homepage for the student, Felix Oje.">
+    <link rel="stylesheet" href="style.css">
+    <link id="icon" rel="icon" href="icon.png" type="image/x-icon">
+
+    <script language="JavaScript" type="text/javascript" src="js\jquery-3.2.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+    $("[href]").each(function() {
+        if (this.href == window.location.href) {
+            $(this).addClass("active");
+        }
+    });
+});
+    </script>
+</head>
+<body>
+
+<div id="wrapper" >
+    <header>
+        <div class="site-wrapper">
+            <!--h1>
+                <a href="index.html">
+                Felix Oje
+                </a>
+            </h1-->
+            <div id="title">
+            <a href="index.html">
+            <img
+                id="title"
+                src="logo.svg"
+                alt="site logo"
+                style="height: 7vh;"
+            />
+            </a>
+            </div>
+            <navigation>
+                <ul>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="profession.html">Profession</a></li>
+                    <li><a href="leisure.html">Leisure</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="games.html">Games</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </navigation>
+        </div>
+    </header>
+
+    <div id="main">
+        <div class="site-wrapper">
+            <div id="ed">
+                <article>
+                  <h3>San Diego City College</h3>
+                    <section>
+                      <p>
+                          At SD City, I am took Golf 1. I very much enjoy the class. My goal is to become a par golfer.
+                      </p>
+                    </section>
+                </article>
+                <article>
+                    <h3>Mesa College</h3>
+                      <section>
+                        <p>
+                            At Mesa College, I am took Intermediate Game Development, Advanced Game Development, Beginning Web Site: HTML and CSS, and Intermediate HTML.
+                        </p>
+                      </section>
+                      <section>
+                        <p>
+                            I want to develop online games and be able to maintain and market them online.
+                        </p>
+                      </section>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="site-wrapper">
+            <p>Felix's Webpage. Copyright, 2017.</p>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>
